@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PostShelf プライバシーポリシー</title>
+<style>
+  :root { color-scheme: light dark; --ink: #1a1c20; --muted: #5f6570; --line: #dfe2e7; --bg: #ffffff; --accent: #1D7FBF; }
+  @media (prefers-color-scheme: dark) { :root { --ink: #eceef1; --muted: #9aa1ac; --line: #2a2e35; --bg: #111316; --accent: #6CB6E6; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, "Hiragino Sans", "Hiragino Kaku Gothic ProN", system-ui, sans-serif; line-height: 1.8; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 1.6rem; line-height: 1.4; margin: 0 0 8px; }
+  h2 { font-size: 1.15rem; margin: 36px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+  p, li { font-size: 0.97rem; }
+  .meta { color: var(--muted); font-size: 0.9rem; margin: 0 0 24px; }
+  a { color: var(--accent); }
+  .table-wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.9rem; margin: 8px 0; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: color-mix(in srgb, var(--ink) 6%, transparent); white-space: nowrap; }
+</style>
+</head>
+<body>
+<main>
+  <h1>PostShelf プライバシーポリシー</h1>
+  <p class="meta">制定日: 2026年9月30日</p>
+
+  <p>PostShelf 開発者(以下「運営者」)は、iOSアプリ「PostShelf」(以下「本アプリ」)における利用者の情報の取り扱いについて、以下のとおりプライバシーポリシーを定めます。</p>
+
+  <h2>1. 本アプリが扱う情報</h2>
+  <p>本アプリは、次の情報を利用者の端末内に保存します。これらの情報を運営者のサーバーに送信することはありません(運営者は利用者の情報を集めるサーバーを持っていません)。</p>
+  <ul>
+    <li>保存した投稿の情報(投稿のURL、本文、投稿者名・ユーザー名、プロフィール画像・添付画像・動画サムネイルのURL、投稿日時、引用投稿の情報)</li>
+    <li>利用者が付けたシェルフ・タグ、およびその色や並び順</li>
+    <li>外観やテーマカラーなどの設定</li>
+  </ul>
+  <p>今後、Appleが提供するiCloud同期を有効にした場合、上記の情報は利用者自身のiCloudアカウントを通じて、同じApple IDの端末間で同期されます。この同期はAppleのサービスで行われ、運営者が内容を見ることはありません。</p>
+
+  <h2>2. 投稿の内容を取得するための外部サービスの利用</h2>
+  <p>Xアプリの共有ボタンから本アプリに投稿を保存する際、本アプリは投稿の内容を取得するために、共有された投稿のURL(ユーザー名と投稿ID)を外部サービス「FxTwitter」(api.fxtwitter.com)に送信します。FxTwitterはX社の公式サービスではなく、第三者が提供するサービスです。</p>
+  <p>また、保存した投稿の画像や動画のサムネイルを表示するため、X社が提供する画像配信サーバー(pbs.twimg.com など)から画像を読み込みます。この際、通常のウェブ閲覧と同様に、利用者の端末のIPアドレスなどがこれらのサーバーに送信されます。</p>
+
+  <h2>3. 広告について</h2>
+  <p>本アプリは、Google LLCが提供する広告配信サービス「Google AdMob」を利用して広告を表示します。広告の表示や効果の測定のため、Google AdMobは次の情報を取得することがあります。</p>
+  <ul>
+    <li>端末の広告識別子(IDFA)。ただし、利用者がアプリからのトラッキングを許可した場合に限ります。</li>
+    <li>IPアドレス、端末の機種・OSのバージョン、言語設定などの端末情報</li>
+    <li>広告の表示回数やタップの有無などの利用状況</li>
+  </ul>
+  <p>トラッキングを許可しない場合でも広告は表示されますが、利用者の興味に合わせた広告(パーソナライズ広告)は表示されません。トラッキングの許可は、iPhoneの「設定」>「プライバシーとセキュリティ」>「トラッキング」からいつでも変更できます。</p>
+  <p>Googleによる情報の取り扱いについては、<a href="https://policies.google.com/privacy">Googleのプライバシーポリシー</a>および<a href="https://policies.google.com/technologies/ads">Googleの広告に関するポリシー</a>をご確認ください。</p>
+
+  <h2>4. 外部に送信される情報の一覧</h2>
+  <p>電気通信事業法に基づき、本アプリから外部に送信される利用者の情報を次のとおり公表します。</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>送信先</th><th>送信される情報</th><th>利用目的</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>FxTwitter(api.fxtwitter.com)</td><td>共有された投稿のURL(ユーザー名・投稿ID)、IPアドレス</td><td>保存する投稿の内容を取得するため</td></tr>
+        <tr><td>X Corp.(pbs.twimg.com など)</td><td>読み込む画像のURL、IPアドレス、端末情報</td><td>保存した投稿の画像を表示するため</td></tr>
+        <tr><td>Google LLC(Google AdMob)</td><td>広告識別子(トラッキングを許可した場合)、IPアドレス、端末情報、広告の表示・操作の状況</td><td>広告の配信、効果の測定、不正の防止のため</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>5. 購入について</h2>
+  <p>本アプリの有料機能を購入する場合、決済はAppleのApp Storeを通じて行われます。運営者がクレジットカード番号などの決済情報を受け取ることはありません。</p>
+
+  <h2>6. 第三者への提供</h2>
+  <p>運営者は、上記2〜4に記載した場合を除き、利用者の情報を第三者に提供しません。</p>
+
+  <h2>7. 情報の削除</h2>
+  <p>本アプリで保存した情報は、アプリ内の「設定」>「すべての投稿を削除」、または本アプリを端末から削除することで消去できます。</p>
+
+  <h2>8. プライバシーポリシーの変更</h2>
+  <p>運営者は、必要に応じて本ポリシーを変更することがあります。変更した場合は、このページで公表します。</p>
+
+  <h2>9. お問い合わせ</h2>
+  <p>本ポリシーに関するお問い合わせは、次の連絡先までお願いします。</p>
+  <p>【お問い合わせ先】</p>
+</main>
+</body>
+</html>
